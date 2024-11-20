@@ -7,8 +7,10 @@
 int main()
 {
     printf("%s\n", "Hello World");
+    
     smartHomeSystemInit();
     while (true) {
         smartHomeSystemUpdate();
     }
+    
 }
